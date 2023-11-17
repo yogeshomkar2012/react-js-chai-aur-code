@@ -8,10 +8,10 @@ function App() {
     setCounter(counter + 1);
   };
   const removeValue = () => {
-    if (!counter === 0) {
+    if (!counter == 0) {
       setCounter(counter - 1);
-      console.log(`${counter}`);
     }
+    console.log(`${counter}`);
   };
   return (
     <>
